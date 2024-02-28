@@ -1,0 +1,60 @@
+body{
+    font-family: "Vollkorn", Georgia, 'Times New Roman', Times, serif;
+    background: rgb(230, 230, 230);
+}
+
+.header-hero {
+    background: rgb(47, 79, 79);
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    justify-content: right;
+    align-items: right;
+    color: white;
+    background-size: 500px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(42, 71, 71);
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-hero img{
+    width: 170px;
+}
+
+.Principal {
+    display: grid;
+    gap: 128px;
+}
+
+.lista-cards {
+    display: grid;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 370px;
+}
+
+.lista-cards img {
+    width: 150px;
+    border-radius: 15%;
+    background: white;
+    margin-bottom: 10px;
+}
+.lista-cards li {
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    margin-right: 55%;
+}
