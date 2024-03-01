@@ -1,0 +1,84 @@
+body{
+    font-family: "Vollkorn", Georgia, 'Times New Roman', Times, serif;
+    background: rgb(230, 230, 230);
+}
+
+.header-hero {
+    background: rgb(47, 79, 79);
+}
+
+.nav-list {
+    display: flex;
+    gap: auto;
+    justify-content: right;
+    align-items: right;
+    color: white;
+    background-size: auto;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(42, 71, 71);
+    margin-left: 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-hero img{
+    width: 170px;
+}
+
+.Principal {
+    display: grid;
+    gap: 128px;
+    grid-template-columns: 100px auto 20%;
+}
+
+.lista-cards {
+    flex-direction: column;
+    margin-left: 10px;
+    height: 370px;
+}
+
+.lista-cards img {
+    width: 150px;
+    border-radius: 15%;
+    background: white;
+    margin-bottom: 10px;
+}
+.lista-cards li {
+    list-style: none;
+}
+
+.texto{
+    text-align: left;
+}
+
+h1{
+    color: rgb(42, 71, 71);
+    font-size: 50px;
+}
+
+h2{
+    color: rgb(42, 71, 71);
+    font-size: 15px;
+    font-style: italic;
+}
+
+.lista-cards2 {
+    flex-direction: column;
+    height: 370px;
+}
+.lista-cards2 img {
+    width: 150px;
+    background: white;
+    margin-bottom: 10px;
+}
+.lista-cards2 li {
+    list-style: none;
+}
